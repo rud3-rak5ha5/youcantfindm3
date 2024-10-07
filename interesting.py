@@ -3,9 +3,9 @@ class node:
         self.data = None
         self.next = None
 class doubleLinkedList:
-    def __init__(self):                #Password for
-        self.head = None                  # server PC 
-    def insert(self, data):                  #akjjy7glc_aezakm5iheso3am
+    def __init__(self):                
+        self.head = None                   
+    def insert(self, data):                  
         if self.head == None:
             self.head = node(data)
             self.head.next = self.head
@@ -16,3 +16,4 @@ class doubleLinkedList:
                 t = t.next
             t.next = new_node
             new_node.next = self.head
+#REMEMEBER to post it on LinkedIn: https://www.linkedin.com/in/rude-rakshas-6066b3331/

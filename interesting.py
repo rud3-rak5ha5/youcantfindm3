@@ -16,4 +16,4 @@ class doubleLinkedList:
                 t = t.next
             t.next = new_node
             new_node.next = self.head
-#REMEMEBER to post it on LinkedIn: https://www.linkedin.com/in/rude-rakshas-6066b3331/
+#REMEMEBER to post it on LinkedIn: https://www.linkedin.com/in/a-sur-6066b3331/
